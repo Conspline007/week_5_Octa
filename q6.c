@@ -34,6 +34,6 @@ int main()
  
 
 		printf("kth smallest element is %d \n",a[k-1]);
-		printf("kth largest element is %d ",a[n-k]);
+		printf("kth largest element is %d ",a[n-(k-1)-1]);
 	return 0;
 }

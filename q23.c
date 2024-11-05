@@ -37,7 +37,7 @@ int main()
         {
             prod+=a[i][j]*b[j][i];
         }
-        c[i]
+        c[i];
         
     }
 

@@ -20,14 +20,15 @@ int main()
 
     int c;
 
-    for (i=0;i<n;i+=2)
+    for (i=0;i<n;i++)
 	{
-        sum = a[i]+a[i+1];
-        if (sum%k!=0)
+        for (j=0;j<n;j++)
         {
-            f=0;
+            sum=a[i]+a[j];
+            if (sum%k==0)
             break;
         }
+    
 	}
 
     if(f==0)
