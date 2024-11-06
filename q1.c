@@ -37,4 +37,4 @@ int main()
 		printf("The average of this array is %d",s/n);
 	return 0;
 }
-//type conversion pending
+
