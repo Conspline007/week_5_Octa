@@ -30,11 +30,13 @@ int main()
 	{
 		s+=a[i];
 	}
+	s=(float)s;
+	n=(float)n;
 //Printing	
 	
 		printf("The minimum of this array is %d\n",a[0]);
 		printf("The maximum of this array is %d\n",a[n-1]);
-		printf("The average of this array is %d",s/n);
+		printf("The average of this array is %f",s/n);
 	return 0;
 }
 
